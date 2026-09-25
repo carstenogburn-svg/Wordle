@@ -30,6 +30,17 @@ public class Display
 				}
 			}
 		}
+		
+		public static void gridFill(String[][]letters)
+		{
+			for(int row = 0; row < letters.length; row ++)
+			{
+				for(int col = 0; col < letters[row].length; col ++)
+				{
+					
+				}
+			}
+		}
 	}
 
 
