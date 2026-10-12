@@ -7,6 +7,7 @@ public class Main
 				String [][] words = {{"A"}, {"E"}, {"I"}, {"O"}, {"U"}};
 				Display.gridFill(words);
 				System.out.println(word);
+				System.out.println("hello");
 			}
 		
 	    static String word = getWord();
@@ -17,5 +18,6 @@ public class Main
 			int ranNumber = (int)(Math.random() * List.list.length) + 1;
 			return List.list[ranNumber];
 		}
+
 
 	}
