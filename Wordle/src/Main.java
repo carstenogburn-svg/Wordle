@@ -1,15 +1,16 @@
-
+import java.util.Scanner;
 public class Main
-	{
-
+	{  
 		public static void main(String[] args)
 			{
-			
-				 System.err.print("Error / Red: ");
+				String Word = "AEIOU";
+				String [][] words = {{"A"}, {"E"}, {"I"}, {"O"}, {"U"}};
+				Display.gridFill(words);
+				System.out.println(word);
 			}
 		
-		
-		
+	    static String word = getWord();
+
 		
 		public static String getWord()
 		{
